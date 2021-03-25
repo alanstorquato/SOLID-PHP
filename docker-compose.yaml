@@ -1,0 +1,8 @@
+version: "2.1"
+services:
+  app:
+    build:
+      context: ./
+    container_name: php_solid
+    volumes:
+      - ./:/app
